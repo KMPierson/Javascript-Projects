@@ -4,3 +4,7 @@ function my_first_function(){  //This defines the funtion
     document.getElementById("button_text").innerHTML=str;
 }
 
+function toCelsius(farenheit) {
+    return (5/9)*(farenheit-32);
+}
+
