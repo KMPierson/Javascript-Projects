@@ -3,12 +3,12 @@ function countdown() {
 
     function tick() {
         seconds = seconds - 1;
-        TimeRanges.innerHTML = seconds;
+        timer.innerHTML = seconds;
         var time = setTimeout(tick, 1000);
         if (seconds == -1) {
             alert("Time's up!");
             clearTimeout(time);
-            TimeRanges.innerHTML = "";
+            timer.innerHTML = "";
         }
     }
     tick();
