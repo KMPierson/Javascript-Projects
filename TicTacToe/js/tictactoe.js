@@ -31,7 +31,7 @@ function placeXOrO(squareNumber) {
             //If active PLayer is anything other than X
         } else {
             //Change the activePlayer to X
-            activePlayer = 'X';        }
+            activePlayer = 'X';        
     }
 
 
@@ -66,7 +66,7 @@ function computersTurn() {
         }
     }
 }
-
+}
 //This function parses the selectedSquares array to search for win conditions
 //drawWinLine function is called to draw line if condition is met
 function checkWinConditions() {
